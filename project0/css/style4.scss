@@ -1,0 +1,47 @@
+$a:crimson;
+$b:blue;
+div{
+    font-style: inherit;
+    p1,p3{
+        color: $a;
+    }
+    p2{
+       color: $b;
+    }
+
+}
+.one, .two{
+    font-weight: bold;
+    padding: 20px;
+    margin: 20px; }
+  
+  .one {
+      font-size: xx-large;
+      color: darkgreen;
+       }
+  
+  .two {
+    font-size: x-large; 
+}
+
+body{
+    background-image: url('9.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+ul#menu li{
+    font-size:xx-large;
+    background-color: antiquewhite;
+    text-align: center;
+    display: inline;
+  }
+  
+h2{
+    font-size: xx-large;
+    color: crimson;
+}
+h3{
+    font-size: xx-large;
+    color: blueviolet;
+}
