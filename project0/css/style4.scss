@@ -10,17 +10,16 @@ div{
     }
 
 }
-.one, .two{
+.one{
     font-weight: bold;
     padding: 20px;
-    margin: 20px; }
+    margin: 20px; 
+    font-size: xx-large;
+    color: darkgreen;
+}
   
-  .one {
-      font-size: xx-large;
-      color: darkgreen;
-       }
-  
-  .two {
+.two {
+      @extend .one;
     font-size: x-large; 
 }
 
