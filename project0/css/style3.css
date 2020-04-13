@@ -16,9 +16,12 @@ text-align: center;
 display: inline;
 }
 body{
-background-image: url('7.jpg');
+background-image: url('../media/7.jpg');
+background-size: cover; 
 background-repeat: no-repeat;
-background-size: cover;
+/* background-position: center center;
+background-attachment: fixed; */
+
 }
 
 @media(min-width:500px){
