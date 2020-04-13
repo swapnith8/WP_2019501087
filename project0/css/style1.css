@@ -8,6 +8,8 @@ body{
     background-image:url('../media/5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
  }
  h1{
     Color :blue ;
